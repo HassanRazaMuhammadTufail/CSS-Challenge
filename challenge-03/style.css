@@ -1,0 +1,42 @@
+* { box-sizing: border-box; }
+
+body { 
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+} 
+
+h1{
+    font-size: 2rem;
+}
+
+.container{
+    background-color: #23424A;
+    color: white;
+    padding: 100px 0; 
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 750px;
+    width: 80%;
+}
+
+.container__text {
+    width: 50%;
+}
+
+.container p {
+    margin-bottom: 3em;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 900;
+    color: #23424a;
+    text-transform: uppercase;
+    background-color: #38cfd9;
+    padding: .75em 2em;
+    border-radius: 100px;
+}
